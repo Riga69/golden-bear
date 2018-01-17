@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Golden bottle</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="image/favicon/f32.png" type="image/png">
+	<link rel="stylesheet" href="index.css">
+	<!--<script src="setting/jquery.js"></script>-->
+</head>
+<body>
+<header>
+	<div class="block-header -block-header-bc"></div>
+	<div class="block-nav -block-nav-bc">
+		<nav class="container">
+			<ul class="main-menu -main-menu-text --typeface-rubik-mono-one">
+				<li class="-triangle -list-item-menu">
+					<a>пивоварня</a>
+					<ul class="secondary-menu -secondary-menu-text --text-center">
+						<li><a>история</a></li>
+						<li><a>местоположение</a></li>
+					</ul>
+				</li>
+				<li class="-list-item-menu">
+					<a>ассортимент</a>
+				</li>
+				<li class="-logo -logo-sz">
+					<a href="index.html" class="" title="перейти на главную"></a>
+				</li>
+				<li class="-list-item-menu  -index"><a>доставка</a></li>
+				<li class="-soc -soc-size -vk">
+					<a href="https://vk.com/" target="_blank" title="перейти в VK" ></a>
+				</li>
+				<li class="-soc -soc-size -fb">
+					<a href="https://ru-ru.facebook.com/" target="_blank" title="перейти в Facebook"></a>
+				</li>
+				<li class="-soc -soc-size -inst">
+					<a href="https://www.instagram.com/" target="_blank" title="перейти в Instagram"></a>
+				</li>
+			</ul>
+			<button id="btn-modal-menu" class="btn -btn-menu --mobile" title="мобильное меню"></button>
+			<div class="logo-mobile -logo-mob-sz --mobile"></div>
+		</nav>
+
+		<nav id="substrate" class="substrate">
+			<div class="close"><div id='close' class="-close-btn --color-white">X</div></div>
+			<ul class="mobile-menu --typeface-rubik-mono-one">
+				<li><a>пивоварня</a></li>
+				<li><a>история</a></li>
+				<li><a>местоположение</a></li>
+				<li><a>ассортимент</a></li>
+				<li><a>доставка</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<main>
+	<section class="main-bg -main-bg-size">
+		<section class="contest --text-center">
+			<span class="-competition --typeface-rubik">конкурс</span>
+		</section>
+
+		<section class="large-container">
+			<div class="tabs -tabs-size -display-style"></div>
+			<div class="content --text-center -display-style-content">
+				<h2 class="-text-action --typeface-rubik-mono-one">Ваш шанс выиграть годовой запас пива от GoldenBottle!</h2>
+			</div>
+			<div class="tabs -tabs-size -display-style"></div>
+		</section>
+
+		<section class="bottles">
+			<div class="box-bottle --display-inline-block"><div class="bottle-1 -bottle-size"></div></div>
+			<div class="box-bottle --display-inline-block"><div class="bottle-2 -bottle-size"></div></div>
+			<div class="box-bottle --display-inline-block"><div class="bottle-3 -bottle-size"></div></div>
+			<div class="box-bottle --display-inline-block"><div class="bottle-4 -bottle-size"></div></div>
+			<div class="box-bottle --display-inline-block"><div class="bottle-5 -bottle-size"></div></div>
+			<div class="box-bottle --display-inline-block"><div class="bottle-6 -bottle-size"></div></div>
+			<div class="box-bottle --display-inline-block"><div class="bottle-7 -bottle-size"></div></div>
+			<div class="box-bottle --display-inline-block"><div class="bottle-8 -bottle-size"></div></div>
+			<div class="box-bottle --display-inline-block"><div class="bottle-9 -bottle-size"></div></div>
+			<div class="box-bottle --display-inline-block"><div class="bottle-10 -bottle-size"></div></div>
+			<div class="box-bottle --display-inline-block"><div class="bottle-11 -bottle-size"></div></div>
+		</section>
+
+		<section class="block-info">
+			<div class="-block-info-size-action --text-center">
+				<h3 class="-block-info-text-action --typeface-rubik">Один шанс, один вопрос! Заполните форму, чтобы мы знали, куда отправить выигрыш:</h3>
+			</div>
+			<div class="-phone --text-center --color-grey --typeface-rubik">Телефон</div>
+
+			<form>
+				<input id="full-name" type="text" class="-input-contact --typeface-rubik --text-center" minlength="5" name="surname" placeholder="ИМЯ ФАМИЛИЯ">
+				<input id="phone" type="tel"  class="-input-contact --typeface-rubik --text-center" minlength="16" name="phone" placeholder="+ 7">
+				<input id="mail" type="email" class="-input-contact --typeface-rubik --text-center" minlength="8" name="email" placeholder="e-mail">
+				<div class="-answer-text --text-center">
+					<span class=" --typeface-rubik --color-red">ВЫБЕРИТЕ ВЕРНЫЙ ОТВЕТ</span>
+				</div>
+				<div class="-block-question-text --typeface-rubik-mono-one">В чем отличие настоящего шотландского стаута от обычного темного пива?</div>
+
+				<section class="block-answer">
+					<div class="-img-block-answer --text-center">
+						<label class="label-img"><input id="barrel" class="barrel -img-size-answer" type="checkbox"/>
+							<span></span>
+							<div class="-text-answer --color-gold --typeface-rubik-mono-one">Крепость</div>
+						</label>
+					</div>
+					<div class="-img-block-answer --text-center">
+						<label class="label-img"><input id="cup" class="cup -img-size-answer" type="checkbox"/>
+							<span></span>
+							<div class="-text-answer --color-gold --typeface-rubik-mono-one">Вкус</div>
+						</label>
+					</div>
+					<div class="-img-block-answer --text-center">
+						<label class="label-img"><input id="hop" class="hop -img-size-answer" type="checkbox"/>
+							<span></span>
+							<div class="-text-answer --color-gold --typeface-rubik-mono-one">Цвет</div>
+						</label>
+					</div>
+					<div class="-img-block-answer --text-center">
+						<label class="label-img"><input id="crane" class="crane -img-size-answer" type="checkbox"/>
+							<span></span>
+							<div class="-text-answer --color-gold --typeface-rubik-mono-one">Ингредиенты</div>
+						</label>
+
+					</div>
+					<div class="-img-block-answer --text-center">
+						<label class="label-img"><input id="cask" class="cask -img-size-answer" type="checkbox"/>
+							<span></span>
+							<div class="-text-answer --color-gold --typeface-rubik-mono-one">Возраст</div>
+						</label>
+					</div>
+				</section>
+
+				<div class="box-content --text-center --typeface-rubik">
+					Настоящий солод для шотландского стаута проходит три стадии обработки, после которых вкусовые качества напитка получаются совершенно бесподобными!
+				</div>
+				<div class="--text-center">
+					<button id="submit" type="button" class="submit --typeface-rubik-mono-one" disabled>ОТПРАВИТЬ</button>
+				</div>
+			</form>
+
+		</section>
+	</section>
+</main>
+
+<footer>
+	<section class="footer">
+		<section class="block-footer-1 --display-inline-block">
+			<h1 class="--typeface-rubik-mono-one">goldenbottle</h1>
+			<nav class="social-network">
+				<ul class="-social-network-gorizont">
+					<li class="-soc -soc-size-2 -vk">
+						<a href="https://vk.com/" target="_blank" title="перейти в VK" ></a>
+					</li>
+					<li class="-soc -soc-size-2 -fb">
+						<a href="https://ru-ru.facebook.com/" target="_blank" title="перейти в Facebook"></a>
+					</li>
+					<li class="-soc -soc-size-2 -inst">
+						<a href="https://www.instagram.com/" target="_blank" title="перейти в Instagram"></a>
+					</li>
+				</ul>
+			</nav>
+			<h2 class="-off-title">© 2017 Golden Beer</h2>
+		</section>
+
+		<section class="block-footer-2 --float-right">
+			<nav class="footer-menu-gorizont">
+				<ul class="-footer-menu-style">
+					<li class="-footer-menu"><a>Пивоварня</a></li>
+					<li class="-footer-menu"><a>Ассортимент</a></li>
+					<li class="-footer-menu"><a>Доставка</a></li>
+				</ul>
+			</nav>
+
+			<nav class="footer-menu-vertical">
+				<ul class="-secondary-menu-footer">
+					<li class="-footer-menu-ver"><a>История</a></li>
+					<li class="-footer-menu-ver"><a>Местоположение</a></li>
+				</ul>
+			</nav>
+
+			<div class="logotip --text-right">
+				<h2 class="-off-title">Сделал сайт - &nbsp
+					<a href="https://www.pink-man.ru/" target="_blank" alt="перейти на сайт">
+						<div class="pinkman"></div>
+					</a>
+				</h2>
+			</div>
+		</section>
+	</section>
+</footer>
+
+
+<script src="index.js"></script>
+</body>
+</html>
